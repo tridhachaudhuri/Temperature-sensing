@@ -20,7 +20,7 @@ boolean lastConnected = false;
 int failedCounter = 0;
 float val;
 int tempPin = A0;
-#define TEMPMAX=50;
+#define TEMPMAX 50
 // Initialize Arduino Ethernet Client
 EthernetClient client;
 
@@ -171,4 +171,3 @@ void startEthernet()
   
   delay(1000);
 }
-
